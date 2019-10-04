@@ -19,5 +19,10 @@ Using the above described method we can try to predict the a food web (a set of 
 - Python
 - numpy, matplotlib, graphviz
 
+## How to use
+
+Run by 'python foodweb.py' with the other sources files in the same folder. Results will be saved into
+a 'sim' subdirectory.
+
 ## Results
 Python, pyTorch, pyOpenGL
