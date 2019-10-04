@@ -1,16 +1,26 @@
 # foodweb
 Calculating interactions from timeseries in a biological context.
 
-A study about how to obtain location coordinates based on 2D camera snapshots in a 3D space.
+A study about how to calculate interactions between variables from timeseries.
 
 ## About
 
-The task is to locate our, i.e. the camera, position based on the 2D image that we see. The 3D scene is a virtual room with four different images on its four walls (the floor and ceiling are painted with homogeneous colors). The image of the camera is therefore a 2D projection of the 3D scene from a particular camera location and rotation angle (pitch is fixed).
-
-## Solution
-
-- supervised learning using a convolutional neural network 
-- the inputs are 2D projection images with the camera locations (x and y coordinates) as labels 
+Theoretically it is possible to assess interactions between interacting variables from timeseries data.
+These interaction strengths express how much the changes of a variable influences changes in another
+(partial derivatives). Due to the simulateneous changes of variables in the timeseries these partial derivatives
+can only be calculated from samples of N datapoints, where N is the number of interacting variables.
+Within a sample the partial derivatives can be estimated by using a linear combination of the directional changes.
+Using many samples the estiamtion can be made more precise.
+In the present biological example the interacting variables are population sizes of different species.
+These species are members of a food web, where each predator pray link means a positive and a negative interaction
+between the two species respectively. Notice that in this case the sign of the interactions
+is independent of the population sizes.
+Using the above described method we can try to predict the food web (predator-prey interactions) among several
+species from the timeseries of their population sizes.
 
 ## Software / libraries
+- Python
+- numpy, matplotlib, graphviz
+
+## Results
 Python, pyTorch, pyOpenGL
