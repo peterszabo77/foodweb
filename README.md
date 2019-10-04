@@ -1,4 +1,4 @@
-# foodweb
+# foodweb prediction
 
 A study about how to calculate interactions between variables from timeseries.
 
