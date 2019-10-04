@@ -1,5 +1,4 @@
 # foodweb
-Calculating interactions from timeseries in a biological context.
 
 A study about how to calculate interactions between variables from timeseries.
 
