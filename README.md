@@ -28,6 +28,6 @@ Results will be saved into a 'sim' subdirectory.
 
 Red nodes indicate those species whose interactions were wrongly predicted (missing or erroneous predator-prey connections).
 
-![results](https://github.com/peterszabo77/foodweb/blob/master/images/results.png | width=100)
+![results](https://github.com/peterszabo77/foodweb/blob/master/images/results.png | width="100")
 
 <img src="https://github.com/peterszabo77/foodweb/blob/master/images/results.png" width="200" />
